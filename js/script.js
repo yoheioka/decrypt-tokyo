@@ -187,11 +187,13 @@ $(document).ready(function($) {
 	/*	Contact Map
 	/* ---------------------------------------------------------------------- */
 
-	try {
-		mapfunction();
-	} catch(err) {
+	// Disabled this and instead use iframe
 
-	}
+	// try {
+	// 	mapfunction();
+	// } catch(err) {
+
+	// }
 
 
 	/*-------------------------------------------------*/
