@@ -1411,11 +1411,20 @@ section.services-section2 {
 section.services-section3 {
   padding: 70px 0 70px;
   background: url("../images/dev9.png") 0 0 repeat-x; }
+  section.services-section3 .row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section.services-section3 .row.display-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+  }
   section.services-section3 .title-section p {
     text-align: center;
     max-width: 940px;
     margin: 0 auto; }
   section.services-section3 .services-box .services-post {
+    height: 100%;
     margin-top: 30px;
     padding: 40px 15px;
     text-align: center;
