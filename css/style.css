@@ -4629,3 +4629,10 @@ footer.third-style {
     width: 100%; }
   section.gallery-section ul.gallery-list li {
     width: 100%; } }
+
+/* added css */
+#sponsor-reachout {
+  opacity: 0.6;
+  margin-bottom: 60px;
+  text-align: center;
+}
