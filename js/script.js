@@ -79,6 +79,13 @@ $(document).ready(function($) {
 			}
 		});
 
+	var navLink	= $('.nav-link');
+
+	navLink.on('click', function(){
+		var navBar = $('.navbar-collapse');
+		navBar.removeClass('show');
+	});
+
 	/*-------------------------------------------------*/
 	/* =  event promo section
 	/*-------------------------------------------------*/

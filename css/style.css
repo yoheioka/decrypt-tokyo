@@ -1862,7 +1862,10 @@ section.agenda-section {
   padding: 0; }
   .collapse-box .panel-default > .panel-heading a {
     display: block;
-    padding: 20px 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 70px;
     position: relative;
     color: #FF4E67;
     background: #fff;
@@ -2242,6 +2245,7 @@ section.speaking-section2 {
     margin-top: 20px;
     float: right; }
   section.speaking-section2 .speakers-box .speaker-post {
+    text-align: center;
     margin-bottom: 30px; }
     section.speaking-section2 .speakers-box .speaker-post img {
       width: 100%;
@@ -4453,9 +4457,11 @@ footer.third-style {
     font-size: 17px; }
   .navbar-nav > li > a:hover,
   .navbar-nav > li > a.active {
-    color: #1E2837 !important; }
+    opacity: 0.7; }
   .navbar-nav > li.active > a:before {
     display: none !important; }
+  header.fourth-style .navbar-nav > li > a.active:before {
+    bottom: 0px;}
   .dropdown {
     position: relative;
     width: 100%;
