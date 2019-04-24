@@ -18,7 +18,7 @@ if __name__ == '__main__':
     # ####
     # # 1. SYNC S3
     # ####
-    all_files = ['index.html', 'js/*', 'css/*', 'images/*', 'upload/*']
+    all_files = ['*.html', 'js/*', 'css/*', 'images/*', 'upload/*']
     include_string = ' '.join('--include "%s"' % file for file in all_files)
 
     aws_command = 'aws s3 sync . s3://%s --profile %s --exclude "*" %s' % (
@@ -34,7 +34,7 @@ if __name__ == '__main__':
     files = (
         all_files
         if args.force
-        else ['index.html']
+        else ['*.html']
     )
     cloudfront = boto3.client('cloudfront')
     cloudfront.create_invalidation(
