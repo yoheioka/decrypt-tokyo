@@ -1630,6 +1630,11 @@ section.schedule-section2 {
           font-weight: 300;
           margin-bottom: 5px;
           line-height: 26px; }
+        section.schedule-section2 .schedule-box .schedule-tabs .tab-content .schedule-post .schedule-cont .schedule-desc {
+          font-size: smaller;
+          font-weight: 300;
+          margin-bottom: 5px;
+          line-height: 26px; }  
         section.schedule-section2 .schedule-box .schedule-tabs .tab-content .schedule-post .schedule-cont p.schedule-auth {
           font-style: italic;
           font-family: "Lora", serif; }
