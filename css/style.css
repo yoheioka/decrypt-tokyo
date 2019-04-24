@@ -2155,6 +2155,10 @@ section.speaking-section3 {
         section.speaking-section .speakers-box .speaker-post .speaker-content h2 a:hover,
         section.speaking-section3 .speakers-box .speaker-post .speaker-content h2 a:hover {
           color: #1E2837; }
+        .speakerName {
+          color: #ffffff; }
+        .speakerName:hover {
+          color: #ffffff; }  
       section.speaking-section .speakers-box .speaker-post .speaker-content span,
       section.speaking-section3 .speakers-box .speaker-post .speaker-content span {
         display: block;
