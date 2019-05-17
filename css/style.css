@@ -2797,7 +2797,7 @@ section.pricing-section3 {
 section.clients-section,
 section.clients-section2,
 section.clients-section3 {
-  padding: 100px 0; }
+  padding-top: 100px; padding-bottom: 0px}
   section.clients-section .client-box ul.client-list,
   section.clients-section2 .client-box ul.client-list,
   section.clients-section3 .client-box ul.client-list {
