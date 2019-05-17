@@ -4654,3 +4654,10 @@ footer.third-style {
 .client-box {
   padding-bottom: 80px;
 }
+
+.twitter-section {
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
