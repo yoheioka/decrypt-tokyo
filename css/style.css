@@ -4760,6 +4760,7 @@ footer.third-style {
 
   .speaker-popup-outer {
     pointer-events: none;
+    background-color: transparent;
   }
 
   .speaker-popup-inner {
