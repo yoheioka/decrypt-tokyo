@@ -4794,3 +4794,10 @@ footer.third-style {
   }
 }
   
+.scholarship-link {
+  color: #FF4D67;
+}
+
+.scholarship-link:hover {
+  opacity: 0.9;
+}
