@@ -89,7 +89,7 @@ section.clients-section3 .client-box ul.client-list, section.blog-section .blog-
   -o-transition: all 0.2s ease-in-out;
   border-bottom: none;
   width: 100%;
-  z-index: 999999;
+  z-index: 999998;
   background: transparent !important;
   position: fixed;
   top: 0;
@@ -116,7 +116,7 @@ header.second-style {
     -o-transition: all 0.2s ease-in-out;
     border-bottom: 1px solid #FFB700;
     width: 100%;
-    z-index: 999999;
+    z-index: 999998;
     background: #fff !important;
     position: fixed;
     top: 0;
@@ -155,7 +155,7 @@ header.third-style {
     -o-transition: all 0.2s ease-in-out;
     border-bottom: 1px solid #999999;
     background: transparent !important;
-    z-index: 999999;
+    z-index: 999998;
     position: relative; }
     header.third-style .navbar a.navbar-brand {
       padding-top: 10px;
@@ -4661,3 +4661,136 @@ footer.third-style {
   margin-left: auto;
   margin-right: auto;
 }
+
+.speaker-popup-outer {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  pointer-events: all;
+  z-index: 999999;
+  background-color: rgba(0,0,0, 0.5);
+}
+
+.speaker-popup-inner {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  width: 80%;
+  height: 80%;
+  max-width: 900px;
+  max-height: 700px;
+  margin: auto;
+  background: #1A1D25;
+  color: #595959;
+  overflow: scroll;
+  pointer-events: all;
+  border-radius: 15px;
+}
+
+.close-popup {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  pointer-events: all;
+  z-index: 9999999;
+}
+
+.popup-container {
+  height: 100%;
+}
+
+.popup-row {
+  height: 100%;
+}
+
+#popup-image-container {
+  width: 100%;
+  height: 100%;
+}
+
+#popup-image {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
+#popup-text-container {
+  margin: 10%;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  pointer-events: all;
+}
+
+#popup-name {
+  color: white;
+}
+
+#popup-title {
+  color: #FFB700;
+}
+
+.popup-text-extra {
+  font-size: 14px;
+  color: #FFB700;
+}
+
+#popup-bio, #popup-talk {
+  font-size: 12px;
+  color: white;
+}
+
+.popup-text {
+  overflow: scroll;
+  height: 100%;
+}
+
+.hidden-md-down {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+
+  .speaker-popup-outer {
+    pointer-events: none;
+  }
+
+  .speaker-popup-inner {
+    pointer-events: none;
+  }
+
+  .hidden-md-down {
+    display: block;
+  }
+
+  #popup-text-container {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10px;
+    margin-right: 30px;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    pointer-events: none;
+  }
+
+  .popup-text {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: auto;
+  }
+
+  .close-popup {
+    display: none;
+  }
+}
+  

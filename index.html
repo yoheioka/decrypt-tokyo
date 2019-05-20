@@ -12,6 +12,7 @@
 	<meta name="google-site-verification" content="21Xwv9ukcnpsNvnZPZrcTKe2Enu4ZLuRNBkAky6xDCw" />
 
 	<link rel="stylesheet" href="css/eventium-assets.min.css">
+	<link rel="stylesheet" href="css/fontawesome.all.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32" />
 	<link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16" />
@@ -397,7 +398,7 @@
                     <div class="row">
 
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="speaker-post">
+                            <div class="speaker-post" id="jeff_wentworth">
                                 <img src="upload/speakers/jeff_wentworth.jpg" alt="">
 
                                 <div class="speaker-content">
@@ -408,7 +409,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="speaker-post">
+                            <div class="speaker-post" id="yusuke_obinata">
                                 <img src="upload/speakers/yusuke_obinata.png" alt="">
 
                                 <div class="speaker-content">
@@ -418,7 +419,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="speaker-post">
+                            <div class="speaker-post" id="yusukeEnomoto">
                                 <img src="upload/speakers/yusukeEnomoto.jpg" alt="">
 
                                 <div class="speaker-content">
@@ -427,7 +428,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="speaker-post">
+                            <div class="speaker-post" id="poanlin">
                                 <img src="upload/speakers/poanlin.jpg" alt="">
 
                                 <div class="speaker-content">
@@ -437,7 +438,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="speaker-post">
+                            <div class="speaker-post" id="shogoRo">
                                 <img src="upload/speakers/shogoRo.jpg" alt="">
 
                                 <div class="speaker-content">
@@ -447,7 +448,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="speaker-post">
+                            <div class="speaker-post" id="kyuzankomiyama">
                                 <img src="upload/speakers/kyuzankomiyama.png" alt="">
 
                                 <div class="speaker-content">
@@ -457,7 +458,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="speaker-post">
+                            <div class="speaker-post" id="aokimetaps">
                                 <img src="upload/speakers/aokimetaps.png" alt="">
 
                                 <div class="speaker-content">
@@ -467,7 +468,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="speaker-post">
+                            <div class="speaker-post" id="shohei_yoshida">
                                 <img src="upload/speakers/shohei_yoshida.png" alt="">
 
                                 <div class="speaker-content">
@@ -477,7 +478,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="speaker-post">
+                            <div class="speaker-post" id="tomoya_kita">
                                 <img src="upload/speakers/tomoya_kita.png" alt="">
 
                                 <div class="speaker-content">
@@ -487,7 +488,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="speaker-post">
+                            <div class="speaker-post" id="deployprince">
                                 <img src="upload/speakers/deployprince.png" alt="">
 
                                 <div class="speaker-content">
@@ -498,7 +499,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="speaker-post">
+                            <div class="speaker-post" id="anton_buenavista">
                                 <img src="upload/speakers/anton_buenavista.png" alt="">
 
                                 <div class="speaker-content">
@@ -509,7 +510,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="speaker-post">
+                            <div class="speaker-post" id="asuka_nishide">
                                 <img src="upload/speakers/asuka_nishide.png" alt="">
 
                                 <div class="speaker-content">
@@ -520,7 +521,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="speaker-post">
+                            <div class="speaker-post" id="richard_ma">
                                 <img src="upload/speakers/richard_ma.jpg" alt="">
 
                                 <div class="speaker-content">
@@ -531,7 +532,7 @@
                         </div>
 
                         <div class="col-lg-3 col-md-4 col-sm-6">
-                            <div class="speaker-post">
+                            <div class="speaker-post" id="mayato">
                                 <img src="upload/speakers/mayato.jpg" alt="">
 
                                 <div class="speaker-content">
@@ -997,6 +998,41 @@
 	<div class="preloader">
 		<img alt="" src="images/loader.gif">
 	</div>
+	<div id="speaker-popup-outer" class="speaker-popup-outer">
+		<div class="speaker-popup-inner">
+			<i class='fa fa-times fa-lg close-popup'></i>
+			<div class="container popup-container">
+				<div class="row popup-row">
+					<div class="col-md-3 hidden-md-down">
+						<div id="popup-image-container">
+							<img id="popup-image" src="" alt="">
+						</div>
+					</div>
+					<div class="col-md-9">
+						<div id="popup-text-container">
+							<div class="popup-text"> 
+								<h2 id="popup-name"></h2>
+								<span id="popup-title"></span>
+								<br/><br/>
+								<div>
+									<span class="popup-text-extra">Bio: </span>
+									<p id="popup-bio">
+										Coming...
+									</p>
+								</div>
+								<div>
+									<span class="popup-text-extra">Talk: </span>
+									<p id="popup-talk">
+										Coming...
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<script src="js/eventium-plugins.min.js"></script>
 	<script src="js/countdown.js"></script>
@@ -1004,6 +1040,7 @@
 	<script src="js/popper.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/gmap3.min.js"></script>
+	<script src="js/data.js"></script>
 	<script src="js/script.js"></script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138668735-1"></script>

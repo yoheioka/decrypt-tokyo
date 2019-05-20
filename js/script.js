@@ -394,7 +394,67 @@ $(document).ready(function($) {
 		
 	})();
 
+
+
+	if ($(window).width() <= 767) {
+		$('.speaker-post').unbind("hover");
+        $('.speaker-post').click(hoverIn);
+        $('.close-popup').click(closePopup);
+        $('.speaker-popup-outer').click(closePopup);
+    } else {
+        $('.speaker-post').hover(hoverIn, hoverOut);
+    }
+
+	$(window).resize(function(){    
+        if ($(window).width() <= 767) {
+            $('.speaker-post').unbind("hover");
+            $('.speaker-post').click(hoverIn);
+            $('.close-popup').click(closePopup);
+            $('.speaker-popup-outer').click(closePopup);
+        }
+        else {
+            $('.speaker-post').hover(hoverIn, hoverOut);
+        }
+    });
 });
+
+
+function hoverIn(e) {
+	let speakerElement = $(e.currentTarget);
+	let speakerId = speakerElement.attr('id');
+
+	if (!speakerId) {
+		return;
+	}
+
+	let imageUrl = speakerElement.find("img")[0].src;
+	let speakerName = $(speakerElement.find("h2")[0]).text();
+	let speakerTitle = $(speakerElement.find("span")[0]).text();
+
+	$('#popup-image').attr("src", imageUrl);
+	$('#popup-name').text(speakerName);
+	$('#popup-title').text(speakerTitle);
+
+	let bio = "Coming";
+	let talk = "TBD";
+
+	if (speakerId in speakerData) {
+		bio = speakerData[speakerId].bio;
+		talk = speakerData[speakerId].talk;
+	}
+	$('#popup-bio').text(bio);
+	$('#popup-talk').text(talk);
+
+	$('.speaker-popup-outer').show();
+}
+	
+function hoverOut() {
+	closePopup();
+}
+
+function closePopup() {
+	$('.speaker-popup-outer').hide();
+}
 
 function Resize() {
 	$(window).trigger('resize');
