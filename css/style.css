@@ -4749,7 +4749,7 @@ footer.third-style {
 }
 
 #popup-bio, #popup-talk {
-  font-size: 12px;
+  font-size: 15px;
   color: white;
 }
 
@@ -4789,8 +4789,14 @@ footer.third-style {
   
 .scholarship-link {
   color: #FF4D67;
+  font-size: 16px;
+  padding: 8px;
+  font-weight: 600;
+  background: #fdffcf;
+  border-radius: 6px;
 }
 
 .scholarship-link:hover {
-  opacity: 0.9;
+  color: #FF4D67;
+  opacity: 0.6;
 }
