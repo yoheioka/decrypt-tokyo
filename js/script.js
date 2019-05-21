@@ -394,28 +394,30 @@ $(document).ready(function($) {
 		
 	})();
 
+	$('.speaker-post').click(hoverIn);
+    $('.close-popup').click(closePopup);
+    $('.speaker-popup-outer').click(closePopup);
 
+	// if ($(window).width() <= 767) {
+	// 	$('.speaker-post').unbind("hover");
+ //        $('.speaker-post').click(hoverIn);
+ //        $('.close-popup').click(closePopup);
+ //        $('.speaker-popup-outer').click(closePopup);
+ //    } else {
+ //        $('.speaker-post').hover(hoverIn, hoverOut);
+ //    }
 
-	if ($(window).width() <= 767) {
-		$('.speaker-post').unbind("hover");
-        $('.speaker-post').click(hoverIn);
-        $('.close-popup').click(closePopup);
-        $('.speaker-popup-outer').click(closePopup);
-    } else {
-        $('.speaker-post').hover(hoverIn, hoverOut);
-    }
-
-	$(window).resize(function(){    
-        if ($(window).width() <= 767) {
-            $('.speaker-post').unbind("hover");
-            $('.speaker-post').click(hoverIn);
-            $('.close-popup').click(closePopup);
-            $('.speaker-popup-outer').click(closePopup);
-        }
-        else {
-            $('.speaker-post').hover(hoverIn, hoverOut);
-        }
-    });
+	// $(window).resize(function(){    
+ //        if ($(window).width() <= 767) {
+ //            $('.speaker-post').unbind("hover");
+ //            $('.speaker-post').click(hoverIn);
+ //            $('.close-popup').click(closePopup);
+ //            $('.speaker-popup-outer').click(closePopup);
+ //        }
+ //        else {
+ //            $('.speaker-post').hover(hoverIn, hoverOut);
+ //        }
+ //    });
 });
 
 
