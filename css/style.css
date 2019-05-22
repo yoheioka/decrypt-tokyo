@@ -4800,3 +4800,8 @@ footer.third-style {
   color: #FF4D67;
   opacity: 0.6;
 }
+
+.pre-event {
+  margin-top: 50px;
+  font-size: 14px;
+}
