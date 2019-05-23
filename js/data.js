@@ -51,4 +51,8 @@ const speakerData = {
         bio: 'Coming...',
         talk: 'TDB'
     },
+    'kasima': {
+        bio: 'Kasima is OmiseGO’s Director of Engineering. He is in charge of the research and development that goes into Plasma and the OMG Network. Kasima has over 10 years of experience under software Engineering. Prior to joining OmiseGO, he was responsible for building and maintaining software for various projects. He was lead billing engineer for Github in charge of implementing new billing features, including new payment methods and pricing models.',
+        talk: 'The Path to More Viable Plasma'
+    },
 }
