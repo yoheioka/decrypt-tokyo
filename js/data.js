@@ -44,8 +44,8 @@ const speakerData = {
         talk: 'Enabling Decentralized Finance'
     },
     asuka_nishide: {
-        bio: 'Coming...',
-        talk: 'TDB'
+        bio: '大学在籍中にIPA未踏ソフトウェアプロジェクト Lunascape の開発メンバーとして参画。翌年Lunascape株式会社を共同創業し、退社までの約7年間にわたりWindows用コンシューマーアプリケーションの開発に従事する。2012年、麻布スタートアップボードゲーム会仲間であった田中と共に、株式会社ユニコンの前身となる株式会社ウォルラスデザインを共同創業。2018年、株式会社ユニコンと株式会社gumiの共同プロジェクト FiNANCiE を立ち上げ、2019年に法人化。',
+        talk: 'オンチェーンとオフチェーンの融合'
     },
     richard_ma: {
         bio: 'Coming...',
