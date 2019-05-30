@@ -56,7 +56,11 @@ const speakerData = {
         talk: 'The Path to More Viable Plasma'
     },
     'yuki_tanaka': {
-        bio: 'Coming...',
-        talk: 'TDB'
+        bio: 'リクルートのCVCであるRSPにて投資を担当。主にBlockchainを投資対象領域として担当。また技術Due DiligenceやBlockchain投資戦略も担当。過去にゴールドマン・サックスの決済システムエンジニア、高級レストランの予約サービスを起業、売却。スタートアップのCTO等。趣味はゴルフ、スノーボード、釣り、バレーボール',
+        talk: 'Blockchain startup investments and trends'
+    },
+    'jun_katagiri': {
+        bio: '仙台電波工業高等専門学校電子工学科卒業、筑波大学理工学群社会工学類編入・除籍。株式会アカツキの創業期に企画・開発・運用に従事後、グリー株式会社にて大規模ソーシャルゲームの開発に参加。Co-Founderとしてゲーム開発会社取締役CTO努め、株式会社MAGESに株式売却後独立。現在はLayerXにてDApps開発を軸に幅広く活動中。',
+        talk: '猫で😺もわかるスマートコントラクト with Vyper🐍'
     }
 }
