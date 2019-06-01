@@ -48,8 +48,8 @@ const speakerData = {
         talk: 'オンチェーンとオフチェーンの融合'
     },
     richard_ma: {
-        bio: 'Coming...',
-        talk: 'TDB'
+        bio: 'Richard Ma is a former software engineer at Tower Research where he developed software that handled millions of dollars using extreme testing methods. He was inspired to found Quantstamp after investing in the DAO and experiencing the aftermath firsthand. Richard aims to secure the future of blockchain technology through the Quantstamp protocol.',
+        talk: 'Smart contract auditing and the Quantstamp Protocol'
     },
     'kasima': {
         bio: 'Kasima is OmiseGO’s Director of Engineering. He is in charge of the research and development that goes into Plasma and the OMG Network. Kasima has over 10 years of experience under software Engineering. Prior to joining OmiseGO, he was responsible for building and maintaining software for various projects. He was lead billing engineer for Github in charge of implementing new billing features, including new payment methods and pricing models.',
