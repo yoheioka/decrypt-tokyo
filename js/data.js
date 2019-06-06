@@ -62,5 +62,9 @@ const speakerData = {
     'jun_katagiri': {
         bio: '仙台電波工業高等専門学校電子工学科卒業、筑波大学理工学群社会工学類編入・除籍。株式会アカツキの創業期に企画・開発・運用に従事後、グリー株式会社にて大規模ソーシャルゲームの開発に参加。Co-Founderとしてゲーム開発会社取締役CTO努め、株式会社MAGESに株式売却後独立。現在はLayerXにてDApps開発を軸に幅広く活動中。',
         talk: '猫で😺もわかるスマートコントラクト with Vyper🐍'
+    },
+    'xan': {
+        bio: 'Xan is on the front lines of decentralized application development. With a background in private equity, investment banking, and the military, Xan is passionate about driving the creation, growth, and expansion of application ecosystems through his role with Blockstack PBC.',
+        talk: 'Blockstack'
     }
 }
